@@ -1,0 +1,228 @@
+:root{
+    --main-font-family : "Poppins";
+}
+body {
+    font-family: var(--main-font-family);
+    /* position: relative; */
+}
+
+body header{
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 0;
+}
+/* START About Us  */
+
+body {
+    background-color: #1dd89a;
+    color: #ffffff;
+    font-family: var(--main-font-family);
+}
+figure {
+    position: absolute;
+    z-index: -1;
+    left: 35%;
+    opacity: 0.7;
+}
+figure img {
+    width: 25rem;
+    height: 30rem;
+}
+
+.container{
+    width: 70%;
+    min-height: 300px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    margin: 3rem auto;
+}
+h2{
+    margin-left: 1rem;
+}
+
+.About-me{
+    display: flex;
+    justify-content: center;
+}
+.About-me img{
+    width: 800px;
+    height: 200px;
+    margin: 0 20px;
+}
+.About-me p{
+    color: #777;
+    margin-top: 0;
+}
+/* END About Us  */
+/* START Projrcts  */
+.Projects{
+    display: flex;
+}
+.container2{
+    width: 70%;
+    min-height: 300px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    margin:3rem auto;
+}
+.card{
+    width: calc((100% - 60px) / 3);
+    margin: 0 10px 0 20px ;
+}
+.card image{
+    max-width: 100%;
+    max-height: 170px;
+}
+.card img{
+    width: 100%;
+    max-height: 150px;
+}
+.card p{
+    color: #777;
+}
+/* END Projrcts  */
+/* Start Work  */
+.container3{
+    width: 70%;
+    min-height: 450px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    margin:3rem auto;
+}
+.container3 .p_margin{
+    margin-top: 40px;
+}
+.container3 p,h3{
+    margin: 20px;
+}
+.container3 p{
+    color: #777;
+}
+/* END Work  */
+/* START Education  */
+.Education{
+    display: flex;
+    justify-content: center;
+}
+.container4{
+    width: 70%;
+    min-height: 200px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    margin:3rem auto;
+}
+.mini-card{
+    width: calc((100% - 90px)/3);
+    margin: 0 10px 0px 20px;
+}
+.container4 p{
+    color: #777;
+}
+.container4 h3{
+    margin: 0px;
+}
+.container4 .mb{
+    margin-bottom: 5px;
+}
+/* END Education  */
+/* START Language  */
+.container5{
+    width: 70%;
+    min-height: 200px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    margin:3rem auto;
+}
+.container5 .Language{
+    margin-top: 50px;
+    display: flex;
+}
+.container5 h3{
+    width: calc((100% - 105px ) / 3);
+    margin: 0 10px 0px 20px;
+}
+.container5 span{
+    font-size: 16px;
+    color: #777;
+    margin-left: 5px;
+}
+/* END Language  */
+/* START Social Netword  */
+.container6{
+    width: 70%;
+    min-height: 200px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    margin:3rem auto;
+}
+.Social{
+    display: flex;
+    margin-top: 50px;
+}
+.Social .card{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #797777;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container6 span {
+    margin-top: 12px;
+}
+
+/* END Social Netword  */
+/* START Contact  */
+.container7{
+    width: 70%;
+    min-height: 200px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    margin:3rem auto;
+}
+.container7 form{
+    margin: 30px 20px 40px 20px;
+    display: grid;
+}
+.container7 form input,textarea{
+   border:  none;
+   padding: 10px 20px;
+   margin: 5px 0;
+   border-radius: 5px;
+   background-color: #eee;
+}
+form textarea {
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+form button{
+    border: none;
+    background-color: #000000;
+    width: 150px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: white;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+/* END Contact  */
+/* START FOOTER  */
+footer {
+    color: white;
+    text-align: center;
+}
+/* END FOOTER  */
+
+
+
